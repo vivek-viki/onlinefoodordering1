@@ -1,0 +1,137 @@
+<html>
+<head>
+<style>
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/* Global */
+.container1{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding-left:500px;
+}
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float:default;
+}
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:250px;
+}
+body
+{
+	background-image:url("background.jpg");
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+.content
+{
+width:300px;
+margin:20px auto;
+box-shadow:1px 1px 10px 2px #333;
+overflow:hidden;
+}
+.header
+{
+background:brown;
+color:white;
+padding:15px 0px;
+}
+.moving_body
+{
+height:300px;
+padding:4px;
+}
+.m-par
+{
+text-align:center;
+padding:4px;
+border-bottom:1px solid #afafaf;
+color:white;
+}
+</style>
+</head>
+<body>
+ <header>
+      <div class="container1">
+        <div id="branding">
+          <h1><span class="highlight">ONLINE FOOD ORDERING</span> </h1>
+        </div>
+        <nav>
+          <ul>
+	  <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="3.html">Gallery</a></li>
+            <li><a href="a.html">About</a></li>
+             <li><a href="2.html">Log-out</a></li>
+          </ul>
+        </nav>
+      </div>
+   </header>
+<div class="content">
+<h1 class="header" align="center">Notifications</h1>
+<marquee behaviour="scroll" direction="up" scrollamount="5" 
+onmouseover="this.setAttribute('scrollamount',0,0); this.stop();"
+onmouseout="this.setAttribute('scrollamount',2,0); this.start();"
+ class="moving_body">
+<p class="m-par">notification :order one item and get one free valid till tomorrow</p>
+<p class="m-par">notification :25% discount on pizza</p>
+<p class="m-par">notification :50% cash back on 6 orders</p>
+<p class="m-par">notification :free delivery for 4 orders</p>
+ </marquee>
+</div>
+</body>
+<html>
